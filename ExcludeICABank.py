@@ -33,5 +33,7 @@ for bk in bankData:
 
 ICABank = removeDuplicate(ICABank)
 
+print("There are " + str(len(ICABank)) + " banks with ICA clients:\n")
+
 for i in range(len(ICABank)):
     print(ICABank[i])
