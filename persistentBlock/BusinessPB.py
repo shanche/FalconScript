@@ -37,8 +37,8 @@ Bank = {}
 for i in range(len(fdiccert)):
     query="INSERT persistentblocks  VALUE (\'" + postStr + "\', \'" + fdiccert[i] + "\', \'"+ bankaba[i] + "\', \'"+ bankacct[i] + "\', \'" + option[i] + "\', \'"+ amount[i] + "')"
     print(query)
-    cur.execute(query)
-    db.commit()
+    #cur.execute(query)
+    #db.commit()
 
     
 db.close()
